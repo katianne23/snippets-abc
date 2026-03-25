@@ -1,233 +1,310 @@
 [
   {
-     "//frete": "Sobre as informações de cotação de frete, daremos andamento ao processo de separação do pedido e assim que estiver pronto e embalado, passaremos as informações de peso e volume."
+    "trigger": "//frete",
+    "replace": "Sobre as informações de cotação de frete, daremos andamento ao processo de separação do pedido e assim que estiver pronto e embalado, passaremos as informações de peso e volume."
   },
   {
-     "//google": "Compra feita com sucesso! 🎉 Agora que você escolheu a ABC, que tal contar pra outros revendedores o que achou do nosso atendimento?*É rapidinho e faz toda a diferença pra gente:*👉https://g.page/r/CTq57QoXw0cwEBM/review"
+    "trigger": "//google",
+    "replace": "Compra feita com sucesso! 🎉 Agora que você escolheu a ABC, que tal contar pra outros revendedores o que achou do nosso atendimento?*É rapidinho e faz toda a diferença pra gente:*👉https://g.page/r/CTq57QoXw0cwEBM/review"
   },
   {
-     "/acrescimoitem": "Certo, vou acrescentar este item e logo te dou um retorno. Caso precise de mais alguma informação é só me chamar!!"
+    "trigger": "/acrescimoitem",
+    "replace": "Certo, vou acrescentar este item e logo te dou um retorno. Caso precise de mais alguma informação é só me chamar!!"
   },
   {
-     "/agilizarretorno": "Vou fazer o possível para agilizar o seu retorno, caso precise é só me chamar!"
+    "trigger": "/agilizarretorno",
+    "replace": "Vou fazer o possível para agilizar o seu retorno, caso precise é só me chamar!"
   },
   {
-     "/agradecer": "Agradeço pela sua informação!"
+    "trigger": "/agradecer",
+    "replace": "Agradeço pela sua informação!"
   },
   {
-     "/aguardar": "Entendi! Fico aguardando seu retorno. Obrigado pela informação."
+    "trigger": "/aguardar",
+    "replace": "Entendi! Fico aguardando seu retorno. Obrigado pela informação."
   },
   {
-     "/aguarde": "Certo, vou verificar e lhe retorno. Peço que aguarde por favor."
+    "trigger": "/aguarde",
+    "replace": "Certo, vou verificar e lhe retorno. Peço que aguarde por favor."
   },
   {
-     "/ajudainformação": "Mais alguma informação"
+    "trigger": "/ajudainformação",
+    "replace": "Mais alguma informação"
   },
   {
-     "/amostra": "Certo, a ABC não fornece amostras de produtos devido a Normas da Anvisa, mas poderemos indicar um fornecedor mais próximo de sua localização que possa atender com uma unidade do item, pois nosso valor mínimo de venda é de R$500,00."
+    "trigger": "/amostra",
+    "replace": "Certo, a ABC não fornece amostras de produtos devido a Normas da Anvisa, mas poderemos indicar um fornecedor mais próximo de sua localização que possa atender com uma unidade do item, pois nosso valor mínimo de venda é de R$500,00."
   },
   {
-     "/ausência": "Olá {name}, estamos fora do nosso horário de expediente. O Atendimento da ABC é de segunda à sexta-feira das 8:00 às 17:30."
+    "trigger": "/ausência",
+    "replace": "Olá {name}, estamos fora do nosso horário de expediente. O Atendimento da ABC é de segunda à sexta-feira das 8:00 às 17:30."
   },
   {
-     "/aço": "O tipo de aço utilizado é AISI 304 e AISI 420."
+    "trigger": "/aço",
+    "replace": "O tipo de aço utilizado é AISI 304 e AISI 420."
   },
   {
-     "/bem-vind,o direcionado": "Olá {name}!! Recebemos a sua mensagem e em alguns minutos um de nossos consultores dará prosseguimento!"
+    "trigger": "/bem-vind,o direcionado",
+    "replace": "Olá {name}!! Recebemos a sua mensagem e em alguns minutos um de nossos consultores dará prosseguimento!"
   },
   {
-     "/boas-vindas": "Olá! Como posso te ajudar hoje?"
+    "trigger": "/boas-vindas",
+    "replace": "Olá! Como posso te ajudar hoje?"
   },
   {
-     "/breveorçamento 1": "Obrigada por escolher a ABC. Retornaremos o mais breve possível com seu orçamento! Já conhece a nossa linha completa de produtos? Acesse o nosso site:wwww.abcinstrumentos.com.br e faça uma busca rápida!"
+    "trigger": "/breveorçamento 1",
+    "replace": "Obrigada por escolher a ABC. Retornaremos o mais breve possível com seu orçamento! Já conhece a nossa linha completa de produtos? Acesse o nosso site:wwww.abcinstrumentos.com.br e faça uma busca rápida!"
   },
   {
-     "/breveorçamento 2": "*Agradecemos a oportunidade, logo retornaremos com seu orçamento em até 24h úteis, para caixas cirúrgicas retornaremos em até 48h úteis. E, caro, se precisar de ajuda, é só chamar novamente! Estamos sempre à disposição! *"
+    "trigger": "/breveorçamento 2",
+    "replace": "*Agradecemos a oportunidade, logo retornaremos com seu orçamento em até 24h úteis, para caixas cirúrgicas retornaremos em até 48h úteis. E, caro, se precisar de ajuda, é só chamar novamente! Estamos sempre à disposição! *"
   },
   {
-     "/cadastro": "Para darmos andamento em seu atendimento, nos/nencaminhe a seguinte documentação:\nCARTÃOCNPJ\nCONTRATOSOCIAL(ÚLTIMA ALTERAÇÃO)\nLICENÇA DE FUNCIONAMENTO LOCAL E ALVARÁ\nSANITÁRIO EXPEDIDO PELA ANVISA (CASO POSSUA)\n\n\n"
+    "trigger": "/cadastro",
+    "replace": "Para darmos andamento em seu atendimento, nos/nencaminhe a seguinte documentação:\nCARTÃOCNPJ\nCONTRATOSOCIAL(ÚLTIMA ALTERAÇÃO)\nLICENÇA DE FUNCIONAMENTO LOCAL E ALVARÁ\nSANITÁRIO EXPEDIDO PELA ANVISA (CASO POSSUA)\n\n\n"
   },
   {
-     "/cadastro,inicial": "Verifique que o CNPJ informado ainda não possui cadastro aqui na ABC. Seria seu primeiro contato?"
+    "trigger": "/cadastro,inicial",
+    "replace": "Verifique que o CNPJ informado ainda não possui cadastro aqui na ABC. Seria seu primeiro contato?"
   },
   {
-     "/cadastrolistapreco": "Gostaria de Realizar  o seu cadastro para receber a Lista de Preços?"
+    "trigger": "/cadastrolistapreco",
+    "replace": "Gostaria de Realizar  o seu cadastro para receber a Lista de Preços?"
   },
   {
-     "/Cartão": "Posso te contar uma novidade? Pensando em melhorar ainda mais nossa relação comercial, a ABC agora aceita cartão  de crédito como forma de pagamento."
+    "trigger": "/Cartão",
+    "replace": "Posso te contar uma novidade? Pensando em melhorar ainda mais nossa relação comercial, a ABC agora aceita cartão  de crédito como forma de pagamento."
   },
   {
-     "/clientefinal": "Você é cliente final? A ABC Instrumentos atende exclusivamente revendedores em todo o Brasil. Porém nossos consultores irão informar a revenda mais próxima de você. Aguarde que já te atenderemos."
+    "trigger": "/clientefinal",
+    "replace": "Você é cliente final? A ABC Instrumentos atende exclusivamente revendedores em todo o Brasil. Porém nossos consultores irão informar a revenda mais próxima de você. Aguarde que já te atenderemos."
   },
   {
-     "/comprovante": "Obrigada por escolher a ABC Instrumentos! O comprovante de pagamento foi recebido, e nossa equipe dará andamento ao seu pedido, logo retornaremos com mais informações!"
+    "trigger": "/comprovante",
+    "replace": "Obrigada por escolher a ABC Instrumentos! O comprovante de pagamento foi recebido, e nossa equipe dará andamento ao seu pedido, logo retornaremos com mais informações!"
   },
   {
-     "/concordar": "Certo, estou à disposição!"
+    "trigger": "/concordar",
+    "replace": "Certo, estou à disposição!"
   },
   {
-     "/confirmacao parcial": "Que bom receber a confirmação do seu pedido! Porém, vi que solicitou a retirada de alguns itens. Poderia nos sinalizar o motivo? Temos interesse em fechar a proposta integral com vocês!"
+    "trigger": "/confirmacao parcial",
+    "replace": "Que bom receber a confirmação do seu pedido! Porém, vi que solicitou a retirada de alguns itens. Poderia nos sinalizar o motivo? Temos interesse em fechar a proposta integral com vocês!"
   },
   {
-     "/dadospagamento": "Para pagamentos: PIX - Chave Pix: 58.268.152/0001-50 Transferência Bancária - ABC Instrumentos Cirúrgicos Ltda CNPJ: 58.268.152/0001-50 Banco Bradesco Ag: 1220 Conta: 493581-0.** Lembrando que o pagamento deverá ser realizado pelo mesmo CNPJ do pedido. Após o pagamento, favor enviar o comprovante! **"
+    "trigger": "/dadospagamento",
+    "replace": "Para pagamentos: PIX - Chave Pix: 58.268.152/0001-50 Transferência Bancária - ABC Instrumentos Cirúrgicos Ltda CNPJ: 58.268.152/0001-50 Banco Bradesco Ag: 1220 Conta: 493581-0.** Lembrando que o pagamento deverá ser realizado pelo mesmo CNPJ do pedido. Após o pagamento, favor enviar o comprovante! **"
   },
   {
-     "/defeitofabricacao": "Olá! A ABC recebeu sua solicitação de troca de instrumento por defeito de fabricação! \nConforme nossa política de qualidade, solicitamos o envio da peça em questão com nota fiscal de troca e frete por correios pago para avaliação de nossa equipe. No caso de constatação do defeito de fabricação, realizaremos a substituição e com o valor do frete será gerado um crédito que você poderá utilizar na próxima compra. Importante: \n1)As peças enviadas devem conter a logomarca da ABC, bem como seu número de lote. \n2)A nota fiscal de troca deverá ser emitida com base na Nota fiscal de venda emitida pela ABC do produto em questão, destacando os impostos. \n3)Solicitamos 3 dias úteis para avaliação do material recebido após o recebimento. \n4)Não serão aceitas mercadorias enviadas por transportadoras. \n5) Endereço para envio: Estrada das Lágrimas 3346/3350 São João Clímaco – SP CEP: 04244-000."
+    "trigger": "/defeitofabricacao",
+    "replace": "Olá! A ABC recebeu sua solicitação de troca de instrumento por defeito de fabricação! \nConforme nossa política de qualidade, solicitamos o envio da peça em questão com nota fiscal de troca e frete por correios pago para avaliação de nossa equipe. No caso de constatação do defeito de fabricação, realizaremos a substituição e com o valor do frete será gerado um crédito que você poderá utilizar na próxima compra. Importante: \n1)As peças enviadas devem conter a logomarca da ABC, bem como seu número de lote. \n2)A nota fiscal de troca deverá ser emitida com base na Nota fiscal de venda emitida pela ABC do produto em questão, destacando os impostos. \n3)Solicitamos 3 dias úteis para avaliação do material recebido após o recebimento. \n4)Não serão aceitas mercadorias enviadas por transportadoras. \n5) Endereço para envio: Estrada das Lágrimas 3346/3350 São João Clímaco – SP CEP: 04244-000."
   },
   {
-     "/desconto": "Avaliando aqui, acredito que há possibilidade de ajustar esse valor. Só preciso confirmar com gestor para garantir para você. Já vou falar com ele e te aviso rapidinho!"
+    "trigger": "/desconto",
+    "replace": "Avaliando aqui, acredito que há possibilidade de ajustar esse valor. Só preciso confirmar com gestor para garantir para você. Já vou falar com ele e te aviso rapidinho!"
   },
   {
-     "/Desconto": "Olha só, estou aqui negociando para você e acredito que posso conseguir uma condição ainda melhor! \nPara isso, que tal uma troca justa? É bem fácil: \n1) Deixa um feedback rápido sobre a ABC Instrumentos no Google: Só clicar no link:https://g.page/r/CTq57QoXw0cwEBM/review \n2) Seguir as nossas redes sociais e ficar por dentro de tudo: \nhttps://www.instagram.com/abcinstrumentos \nhttps://web.facebook.com/abcinstrumentos \nhttps://www.linkedin.com/company/abcinstrumentos/Se fizer isso, eu consigo liberar um desconto exclusivo pra você. O que acha? Deseja participar?"
+    "trigger": "/Desconto",
+    "replace": "Olha só, estou aqui negociando para você e acredito que posso conseguir uma condição ainda melhor! \nPara isso, que tal uma troca justa? É bem fácil: \n1) Deixa um feedback rápido sobre a ABC Instrumentos no Google: Só clicar no link:https://g.page/r/CTq57QoXw0cwEBM/review \n2) Seguir as nossas redes sociais e ficar por dentro de tudo: \nhttps://www.instagram.com/abcinstrumentos \nhttps://web.facebook.com/abcinstrumentos \nhttps://www.linkedin.com/company/abcinstrumentos/Se fizer isso, eu consigo liberar um desconto exclusivo pra você. O que acha? Deseja participar?"
   },
   {
-     "/Descritivo": "*Fotos e descritivo técnico encontra-se em nosso site https://abcinstrumentos.com.br/, no campo “procurar produtos” digite o código da peça e faça uma busca rápida.* \n**"
+    "trigger": "/Descritivo",
+    "replace": "*Fotos e descritivo técnico encontra-se em nosso site https://abcinstrumentos.com.br/, no campo “procurar produtos” digite o código da peça e faça uma busca rápida.* \n**"
   },
   {
-     "/desculpas": "Essa não era a experiência que gostaríamos de oferecer, quero lhe tranquilizar pois vou seguir com seu atendimento fazendo o meu melhor, até a solução do seu problema."
+    "trigger": "/desculpas",
+    "replace": "Essa não era a experiência que gostaríamos de oferecer, quero lhe tranquilizar pois vou seguir com seu atendimento fazendo o meu melhor, até a solução do seu problema."
   },
   {
-     "/desculpasouvidoria": "Definitivamente essa não era a experiência que gostaríamos de oferecer. Quero lhe tranquilizar pois seguirei com seu atendimento e registro dessa ocorrência, e se necessário a responsabilização das partes. Conte comigo !"
+    "trigger": "/desculpasouvidoria",
+    "replace": "Definitivamente essa não era a experiência que gostaríamos de oferecer. Quero lhe tranquilizar pois seguirei com seu atendimento e registro dessa ocorrência, e se necessário a responsabilização das partes. Conte comigo !"
   },
   {
-     "/diferencial": "A mais de 35 anos no mercado a ABC um dos maiores fabricantes do país, além da qualidade, mantemos a garantia de 10 anos contra defeito de fabricação e o menor prazo de entrega : até 3 dias úteis."
+    "trigger": "/diferencial",
+    "replace": "A mais de 35 anos no mercado a ABC um dos maiores fabricantes do país, além da qualidade, mantemos a garantia de 10 anos contra defeito de fabricação e o menor prazo de entrega : até 3 dias úteis."
   },
   {
-     "/encaminhacadastro": "Certo, sendo assim vou encaminhar a nossa conversa para o time de Cadastro, aguarde um momento, por favor!"
+    "trigger": "/encaminhacadastro",
+    "replace": "Certo, sendo assim vou encaminhar a nossa conversa para o time de Cadastro, aguarde um momento, por favor!"
   },
   {
-     "/encerrar": "{name}, vou encerrar o nosso atendimento. Espero que tenha tido uma boa experiência. Caso precise de mais alguma informação, estaremos à disposição! Obrigada."
+    "trigger": "/encerrar",
+    "replace": "{name}, vou encerrar o nosso atendimento. Espero que tenha tido uma boa experiência. Caso precise de mais alguma informação, estaremos à disposição! Obrigada."
   },
   {
-     "/fecharpedido": "Olá,{name}.Gostaria de saber se teve a chance de analisar o orçamento que enviamos? Por favor, me avise o que falta para fecharmos negócio."
+    "trigger": "/fecharpedido",
+    "replace": "Olá,{name}.Gostaria de saber se teve a chance de analisar o orçamento que enviamos? Por favor, me avise o que falta para fecharmos negócio."
   },
   {
-     "/finalizaouvidoria": "Gostaríamos muito de ouvir a sua opinião sobre o atendimento que recebeu pois estamos trabalhando continuamente afim de aumentar a qualidade dos nossos produtos e de nosso atendimento. Esperamos que tenha um ótimo dia ! Agradecemos desde já sua colaboração."
+    "trigger": "/finalizaouvidoria",
+    "replace": "Gostaríamos muito de ouvir a sua opinião sobre o atendimento que recebeu pois estamos trabalhando continuamente afim de aumentar a qualidade dos nossos produtos e de nosso atendimento. Esperamos que tenha um ótimo dia ! Agradecemos desde já sua colaboração."
   },
   {
-     "/frete simples": "O frete é por conta do cliente, que pode escolher qual a melhor forma para retirar seus produtos."
+    "trigger": "/frete simples",
+    "replace": "O frete é por conta do cliente, que pode escolher qual a melhor forma para retirar seus produtos."
   },
   {
-     "/fretetransportadora": "Nosso Frete é por conta do cliente, sendo assim ficamos no aguardo da indicação da transportadora que será utilizada. Quando o pedido estiver preparado, informamos a cubagem para que possam cotar o frete."
+    "trigger": "/fretetransportadora",
+    "replace": "Nosso Frete é por conta do cliente, sendo assim ficamos no aguardo da indicação da transportadora que será utilizada. Quando o pedido estiver preparado, informamos a cubagem para que possam cotar o frete."
   },
   {
-     "/garantia": "Garantia de até 10 anos contra defeito de fabricação."
+    "trigger": "/garantia",
+    "replace": "Garantia de até 10 anos contra defeito de fabricação."
   },
   {
-     "/Garantia, Não Conformidade": "A partir deste momento o seu atendimento será acompanhado pela Equipe de Garantia da Qualidade da ABC. Estamos aqui para seguir com o seu atendimento de forma ágil e assertiva. Para isso, solicitamos fotos dos produtos, um breve relato do ocorrido e se possível o número da nota fiscal de venda do produto."
+    "trigger": "/Garantia, Não Conformidade",
+    "replace": "A partir deste momento o seu atendimento será acompanhado pela Equipe de Garantia da Qualidade da ABC. Estamos aqui para seguir com o seu atendimento de forma ágil e assertiva. Para isso, solicitamos fotos dos produtos, um breve relato do ocorrido e se possível o número da nota fiscal de venda do produto."
   },
   {
-     "/google": "Estamos sempre em busca de melhorar e oferecer o melhor atendimento possível, e sua opinião é super importante para nós! \nQue tal deixar um feedback sobre sua experiência com a ABC Instrumentos no Google? Isso nos ajuda a crescer e melhorar ainda mais! \nSó clicar no link:https://g.page/r/CTq57QoXw0cwEBM/review \nAh, e não esqueça de seguir nossas redes sociais para acompanhar todas as novidades e lançamentos: \nhttps://www.instagram.com/abcinstrumentos \nhttps://web.facebook.com/abcinstrumentos  \nhttps://www.linkedin.com/company/abcinstrumentos/ \nContamos com você! Que acha de dar essa força pra gente?"
+    "trigger": "/google",
+    "replace": "Estamos sempre em busca de melhorar e oferecer o melhor atendimento possível, e sua opinião é super importante para nós! \nQue tal deixar um feedback sobre sua experiência com a ABC Instrumentos no Google? Isso nos ajuda a crescer e melhorar ainda mais! \nSó clicar no link:https://g.page/r/CTq57QoXw0cwEBM/review \nAh, e não esqueça de seguir nossas redes sociais para acompanhar todas as novidades e lançamentos: \nhttps://www.instagram.com/abcinstrumentos \nhttps://web.facebook.com/abcinstrumentos  \nhttps://www.linkedin.com/company/abcinstrumentos/ \nContamos com você! Que acha de dar essa força pra gente?"
   },
   {
-     "/horarioAlmoço": "Em alguns minutos estará iniciando meu Horário de Almoço, você pode aguardar meu retorno para darmos prosseguimento ao atendimento ? Ou você deseja que lhe transfiro para outra atendente da equipe."
+    "trigger": "/horarioAlmoço",
+    "replace": "Em alguns minutos estará iniciando meu Horário de Almoço, você pode aguardar meu retorno para darmos prosseguimento ao atendimento ? Ou você deseja que lhe transfiro para outra atendente da equipe."
   },
   {
-     "/inicioouvidoria": "Pensando em lhe ajudar de uma forma mais assertiva, preciso que relate sobre sua experiência... Estou aqui para lhe ajudar!"
+    "trigger": "/inicioouvidoria",
+    "replace": "Pensando em lhe ajudar de uma forma mais assertiva, preciso que relate sobre sua experiência... Estou aqui para lhe ajudar!"
   },
   {
-     "/moto uber": "Por favor, atente-se :Em caso de solicitação de Moto Uber para retirada de mercadoria, a entrega não é realizada na porta da rua, a retirada é feita no interior da empresa, mediante autorização de entrega, certifique-se com o motorista antes de fechar o serviço."
+    "trigger": "/moto uber",
+    "replace": "Por favor, atente-se :Em caso de solicitação de Moto Uber para retirada de mercadoria, a entrega não é realizada na porta da rua, a retirada é feita no interior da empresa, mediante autorização de entrega, certifique-se com o motorista antes de fechar o serviço."
   },
   {
-     "/Novidade": "Olá, que bom te ver por aqui! Posso te contar uma novidade? Como você sabe, a ABC está ampliando sua linha de instrumentais , e temos uma pré-venda exclusiva acontecendo de novos produtos. Gostaria de receber a nossa lista de preços atualizada agora?"
+    "trigger": "/Novidade",
+    "replace": "Olá, que bom te ver por aqui! Posso te contar uma novidade? Como você sabe, a ABC está ampliando sua linha de instrumentais , e temos uma pré-venda exclusiva acontecendo de novos produtos. Gostaria de receber a nossa lista de preços atualizada agora?"
   },
   {
-     "/Não ": "Obrigada por nos consultar, mas os itens solicitados não fazem parte de nossa linha de comercialização."
+    "trigger": "/Não ",
+    "replace": "Obrigada por nos consultar, mas os itens solicitados não fazem parte de nossa linha de comercialização."
   },
   {
-     "/não": "Obrigado por escolher a ABC Instrumentos! Os itens que você solicitou não fazem parte da nossa linha de produtos."
+    "trigger": "/não",
+    "replace": "Obrigado por escolher a ABC Instrumentos! Os itens que você solicitou não fazem parte da nossa linha de produtos."
   },
   {
-     "/obrigado": "A ABC Instrumentos agradece o seu contato! Já conhece o nosso site: Acesse agora:wwww.abcinstrumentos.com.br"
+    "trigger": "/obrigado",
+    "replace": "A ABC Instrumentos agradece o seu contato! Já conhece o nosso site: Acesse agora:wwww.abcinstrumentos.com.br"
   },
   {
-     "/oferecerajuda": "Posso te ajudar com mais alguma informação?"
+    "trigger": "/oferecerajuda",
+    "replace": "Posso te ajudar com mais alguma informação?"
   },
   {
-     "/orcamento1": "Olá, {name}.\nGostaria de saber se teve a chance de analisar o orçamento que enviamos? Precisa de mais alguma informação?"
+    "trigger": "/orcamento1",
+    "replace": "Olá, {name}.\nGostaria de saber se teve a chance de analisar o orçamento que enviamos? Precisa de mais alguma informação?"
   },
   {
-     "/orcamento2": "Olá, {name}. Tudo bem?\nSobre o orçamento encaminhado anteriormente, ficou alguma dúvida? Por favor, me avise o que falta para fecharmosnegócio."
+    "trigger": "/orcamento2",
+    "replace": "Olá, {name}. Tudo bem?\nSobre o orçamento encaminhado anteriormente, ficou alguma dúvida? Por favor, me avise o que falta para fecharmosnegócio."
   },
   {
-     "/orcament,onaoconfirmado": "Olá {name}! Seu orçamento já está pronto para análise! Agradecemos a oportunidade e estamos à disposição para eventuais dúvidas! Solicitamos que verifique o campo de observações, temos informações importantes para você lá"
+    "trigger": "/orcament,onaoconfirmado",
+    "replace": "Olá {name}! Seu orçamento já está pronto para análise! Agradecemos a oportunidade e estamos à disposição para eventuais dúvidas! Solicitamos que verifique o campo de observações, temos informações importantes para você lá"
   },
   {
-     "/orcamentoproposta": "Olá {name}! Seu orçamento já está pronto para análise! Agradecemos a oportunidade e estamos à disposição para eventuais dúvidas! Solicitamos que verifique o campo de observações, temos informações importantes para você lá."
+    "trigger": "/orcamentoproposta",
+    "replace": "Olá {name}! Seu orçamento já está pronto para análise! Agradecemos a oportunidade e estamos à disposição para eventuais dúvidas! Solicitamos que verifique o campo de observações, temos informações importantes para você lá."
   },
   {
-     "/pagamento": "Obrigada por escolher a ABC INSTRUMENTOS! Seu pagamento foi recebido e nossa equipe dará andamento ao seu pedido, caso precise de mais alguma informação, estaremos a disposição!"
+    "trigger": "/pagamento",
+    "replace": "Obrigada por escolher a ABC INSTRUMENTOS! Seu pagamento foi recebido e nossa equipe dará andamento ao seu pedido, caso precise de mais alguma informação, estaremos a disposição!"
   },
   {
-     "/pedidoagradecimento": "*Agradecemos pela parceria e confiança em nossos produtos! Esperamos que esteja feliz com sua compra e atendimento, assim como nós estamos. Continuamente estamos trabalhando para garantir a melhor qualidade em nossos produtos. E, claro, se precisar de ajuda, saiba que pode contar com a nossa equipe sempre!*"
+    "trigger": "/pedidoagradecimento",
+    "replace": "*Agradecemos pela parceria e confiança em nossos produtos! Esperamos que esteja feliz com sua compra e atendimento, assim como nós estamos. Continuamente estamos trabalhando para garantir a melhor qualidade em nossos produtos. E, claro, se precisar de ajuda, saiba que pode contar com a nossa equipe sempre!*"
   },
   {
-     "/pedidoantecipado": "Olá, segue o pedido de compra para sua análise final e confirmação! Favor informar qual a preferência para pagamento Boleto ( antecipado), Pix ou Transferência(Bradesco)."
+    "trigger": "/pedidoantecipado",
+    "replace": "Olá, segue o pedido de compra para sua análise final e confirmação! Favor informar qual a preferência para pagamento Boleto ( antecipado), Pix ou Transferência(Bradesco)."
   },
   {
-     "/pedidofaturado": "Olá, segue o pedido de compra para sua análise final e confirmação! Caso possua dúvidas quanto algum produto, você pode consultar o nosso site onde constam todas as informações, fotos e descritivos de cada instrumento www.abcinstrumentos.com.br"
+    "trigger": "/pedidofaturado",
+    "replace": "Olá, segue o pedido de compra para sua análise final e confirmação! Caso possua dúvidas quanto algum produto, você pode consultar o nosso site onde constam todas as informações, fotos e descritivos de cada instrumento www.abcinstrumentos.com.br"
   },
   {
-     "/pedidominimo": "Nosso sistema aceita pedidos acima de R$ 500, mas não se preocupe que estamos quase lá! Poderia adicionar mais algum item para chegarmos neste mínimo? Já conhece a nossa linha completa de produtos? Acesse nosso site www.abcinstrumentos.com.br e faça uma busca rápida!"
+    "trigger": "/pedidominimo",
+    "replace": "Nosso sistema aceita pedidos acima de R$ 500, mas não se preocupe que estamos quase lá! Poderia adicionar mais algum item para chegarmos neste mínimo? Já conhece a nossa linha completa de produtos? Acesse nosso site www.abcinstrumentos.com.br e faça uma busca rápida!"
   },
   {
-     "/pesquisa": "Esperamos que tenha ficado satisfeito com os instrumentos da ABC e nosso atendimento! Se possível, nos ajude deixando uma avaliação no Google. Sua opinião é muito valiosa para nós! \nSó clicar no link: https://g.page/r/CTq57QoXw0cwEBM/review"
+    "trigger": "/pesquisa",
+    "replace": "Esperamos que tenha ficado satisfeito com os instrumentos da ABC e nosso atendimento! Se possível, nos ajude deixando uma avaliação no Google. Sua opinião é muito valiosa para nós! \nSó clicar no link: https://g.page/r/CTq57QoXw0cwEBM/review"
   },
   {
-     "/pesquisa2": "Esperamos que tenha ficado satisfeito com nosso atendimento! Se possível, nos ajude deixando uma avaliação no*Google. Sua opinião é muito valiosa para nós!**Só clicar no link: https://g.page/r/CTq57QoXw0cwEBM/review"
+    "trigger": "/pesquisa2",
+    "replace": "Esperamos que tenha ficado satisfeito com nosso atendimento! Se possível, nos ajude deixando uma avaliação no*Google. Sua opinião é muito valiosa para nós!**Só clicar no link: https://g.page/r/CTq57QoXw0cwEBM/review"
   },
   {
-     "/Pix": "Para pagamentos: \nPIX \nChave Pix: 58.268.152/0001-50 \n_** \nLembrando que o pagamento deverá ser realizado pelo mesmo CNPJ do pedido._ \nApós o pagamento, favor enviar o comprovante. \n*Caso seja feito por outro CNPJ será feito devolução do valor em 07 dias úteis e será cobrada a taxa de operação."
+    "trigger": "/Pix",
+    "replace": "Para pagamentos: \nPIX \nChave Pix: 58.268.152/0001-50 \n_** \nLembrando que o pagamento deverá ser realizado pelo mesmo CNPJ do pedido._ \nApós o pagamento, favor enviar o comprovante. \n*Caso seja feito por outro CNPJ será feito devolução do valor em 07 dias úteis e será cobrada a taxa de operação."
   },
   {
-     "/prazodeentrega": "O prazo de liberação dos pedidos é de até 3 dias úteis, temos o menor prazo de entrega do Brasil. Quando o pedido ficar pronto, solicitaremos a coleta indicada pelo cliente."
+    "trigger": "/prazodeentrega",
+    "replace": "O prazo de liberação dos pedidos é de até 3 dias úteis, temos o menor prazo de entrega do Brasil. Quando o pedido ficar pronto, solicitaremos a coleta indicada pelo cliente."
   },
   {
-     "/prevenda": "Olá! Verifiquei que o seu cadastro com a ABC está ativo! \n Segue abaixo nova tabela de preços referente a Novembro 2023. Os novos instrumentos estão identificados como NEW. \n Lembrando que você poderá realizar seus orçamentos e fazer os pedidos de pre-venda, isto é, os instrumentos ficarão reservados, e assim que estiverem disponíveis, serão faturados à partir de 30/11, conforme disponibilidade em estoque. \nGostaria de mais alguma informação adicional?"
+    "trigger": "/prevenda",
+    "replace": "Olá! Verifiquei que o seu cadastro com a ABC está ativo! \n Segue abaixo nova tabela de preços referente a Novembro 2023. Os novos instrumentos estão identificados como NEW. \n Lembrando que você poderá realizar seus orçamentos e fazer os pedidos de pre-venda, isto é, os instrumentos ficarão reservados, e assim que estiverem disponíveis, serão faturados à partir de 30/11, conforme disponibilidade em estoque. \nGostaria de mais alguma informação adicional?"
   },
   {
-     "/primeirocontato": " Verifiquei que este é o seu primeiro contato, certo? Poderia nos dizer como conheceu a ABC Instrumentos? Através de indicação, Google, redes sociais....."
+    "trigger": "/primeirocontato",
+    "replace": " Verifiquei que este é o seu primeiro contato, certo? Poderia nos dizer como conheceu a ABC Instrumentos? Através de indicação, Google, redes sociais....."
   },
   {
-     "/pré": "Olá! Obrigada pelo seu interesse na pré-venda dos novos instrumentos da ABC. Vou te explicar como vai funcionar esta pré-venda:Dia 01/11 você receberá a nova tabela de preços, e para isso, preciso que você digite agora o seu e-mail para cadastro. Com a tabela em mãos, você poderá realizar seus orçamentos e fazer os pedidos, isto é, os instrumentos ficarão reservados, e assim que estiverem disponíveis, serão faturados à partir de 31/11. Esta pré-venda é muito importante pois garante que você aproveite as condições especiais de lançamento. \nGostaria de mais alguma informação adicional?"
+    "trigger": "/pré",
+    "replace": "Olá! Obrigada pelo seu interesse na pré-venda dos novos instrumentos da ABC. Vou te explicar como vai funcionar esta pré-venda:Dia 01/11 você receberá a nova tabela de preços, e para isso, preciso que você digite agora o seu e-mail para cadastro. Com a tabela em mãos, você poderá realizar seus orçamentos e fazer os pedidos, isto é, os instrumentos ficarão reservados, e assim que estiverem disponíveis, serão faturados à partir de 31/11. Esta pré-venda é muito importante pois garante que você aproveite as condições especiais de lançamento. \nGostaria de mais alguma informação adicional?"
   },
   {
-     "/remessadireta": "Obrigado por escolher a ABC! Devido as nossas normas e procedimentos internos, nós não realizamos envio de remessa direta. Porém, você pode escolher o frete que melhor te atende, e os produtos serão enviados para o endereço faturado. Lembrando que a ABC possui hoje o menor prazo de entrega do Brasil!!"
+    "trigger": "/remessadireta",
+    "replace": "Obrigado por escolher a ABC! Devido as nossas normas e procedimentos internos, nós não realizamos envio de remessa direta. Porém, você pode escolher o frete que melhor te atende, e os produtos serão enviados para o endereço faturado. Lembrando que a ABC possui hoje o menor prazo de entrega do Brasil!!"
   },
   {
-     "/respostapedido": "*Agradecemos a preferência por nossa empresa, logo retornaremos com seu pedido em até 24h úteis. E, claro, se precisar de ajuda, é só chamar novamente! Estamos sempre à disposição!*"
+    "trigger": "/respostapedido",
+    "replace": "*Agradecemos a preferência por nossa empresa, logo retornaremos com seu pedido em até 24h úteis. E, claro, se precisar de ajuda, é só chamar novamente! Estamos sempre à disposição!*"
   },
   {
-     "/revenda": "Identificamos os revendedores ABC mais próximos da sua localização. Estamos à disposição! Obrigado."
+    "trigger": "/revenda",
+    "replace": "Identificamos os revendedores ABC mais próximos da sua localização. Estamos à disposição! Obrigado."
   },
   {
-     "/semcadastro": "Olá! Verifiquei que você não possui cadastro com a ABC! Lembramos que atendemos exclusivamente revendedores em todo o Brasil.Para iniciar o cadastro, preencha o formulário em anexo e nos envie. Nossos consultores farão a análise da documentação enviada e entrarão em contato através desta mensagem."
+    "trigger": "/semcadastro",
+    "replace": "Olá! Verifiquei que você não possui cadastro com a ABC! Lembramos que atendemos exclusivamente revendedores em todo o Brasil.Para iniciar o cadastro, preencha o formulário em anexo e nos envie. Nossos consultores farão a análise da documentação enviada e entrarão em contato através desta mensagem."
   },
   {
-     "/trocadefeito": "Olá! \nA ABC recebeu sua solicitação de troca de instrumento por defeito de fabricação! Conforme nossa política de qualidade, solicitamos o envio da peça em questão com nota fiscal de devolução e frete por correios pago, para avaliação de nossa equipe. \nNo caso de constatação do defeito de fabricação, realizaremos a substituição e com o valor do frete será gerado um crédito que você poderá utilizar na próxima compra. \nImportante: \n1) As peças enviadas devem conter a logomarca da ABC, bem como seu número de lote. \n2) A nota fiscal de troca deverá ser emitida com base na Nota fiscal de venda emitida pela ABC do produto em questão, destacando os impostos. \n3) Solicitamos 3 dias úteis para avaliação do material recebido após o recebimento. \n4) Não serão aceitas mercadorias enviadas por transportadoras. \n5) Endereço para envio: Estrada das Lágrimas3346/3350 São João Clímaco – SP CEP: 04244-000."
+    "trigger": "/trocadefeito",
+    "replace": "Olá! \nA ABC recebeu sua solicitação de troca de instrumento por defeito de fabricação! Conforme nossa política de qualidade, solicitamos o envio da peça em questão com nota fiscal de devolução e frete por correios pago, para avaliação de nossa equipe. \nNo caso de constatação do defeito de fabricação, realizaremos a substituição e com o valor do frete será gerado um crédito que você poderá utilizar na próxima compra. \nImportante: \n1) As peças enviadas devem conter a logomarca da ABC, bem como seu número de lote. \n2) A nota fiscal de troca deverá ser emitida com base na Nota fiscal de venda emitida pela ABC do produto em questão, destacando os impostos. \n3) Solicitamos 3 dias úteis para avaliação do material recebido após o recebimento. \n4) Não serão aceitas mercadorias enviadas por transportadoras. \n5) Endereço para envio: Estrada das Lágrimas3346/3350 São João Clímaco – SP CEP: 04244-000."
   },
   {
-     "/trocadevolucao": "Olá! \nA ABC recebeu sua solicitação de troca de instrumento! Gostaríamos de lembrar que de acordo com a nossa política de troca, o prazo para devolução de mercadorias é de até 7 dias, após a emissão da nota fiscal. Porém, mediante a nossa parceria, iremos realizar a devolução. \nImportante: \n1) Solicitamos o envio da peça em questão com nota fiscal de devolução e frete pago. \n2) As peças devolvidas deverão estar na embalagem original lacrada. \n3) Para que ocorra a devolução da peça, o valor da mesma deverá ser utilizado imediatamente para a compra de outra peça. Não é possível deixar o valor em aberto para crédito futuro. \n4) A nota fiscal de troca deverá ser emitida com base na Nota fiscal de venda emitida pela ABC do produto em questão, destacando os impostos. \n5) O prazo para liberação da troca é de até 03 dias úteis após o recebimento da mercadoria. \n6) Endereço para envio: Estrada das Lágrimas3346/3350 São João Clímaco – SP CEP: 04244-000"
+    "trigger": "/trocadevolucao",
+    "replace": "Olá! \nA ABC recebeu sua solicitação de troca de instrumento! Gostaríamos de lembrar que de acordo com a nossa política de troca, o prazo para devolução de mercadorias é de até 7 dias, após a emissão da nota fiscal. Porém, mediante a nossa parceria, iremos realizar a devolução. \nImportante: \n1) Solicitamos o envio da peça em questão com nota fiscal de devolução e frete pago. \n2) As peças devolvidas deverão estar na embalagem original lacrada. \n3) Para que ocorra a devolução da peça, o valor da mesma deverá ser utilizado imediatamente para a compra de outra peça. Não é possível deixar o valor em aberto para crédito futuro. \n4) A nota fiscal de troca deverá ser emitida com base na Nota fiscal de venda emitida pela ABC do produto em questão, destacando os impostos. \n5) O prazo para liberação da troca é de até 03 dias úteis após o recebimento da mercadoria. \n6) Endereço para envio: Estrada das Lágrimas3346/3350 São João Clímaco – SP CEP: 04244-000"
   },
   {
-     "/valorminimo": "Nosso sistema aceita pedidos acima de R$ 500. Aproveite para conhecer a nossa linha completa de produtos!! Acesse o nosso site: www.abcinstrumentos.com.br e faça uma busca rápida!"
+    "trigger": "/valorminimo",
+    "replace": "Nosso sistema aceita pedidos acima de R$ 500. Aproveite para conhecer a nossa linha completa de produtos!! Acesse o nosso site: www.abcinstrumentos.com.br e faça uma busca rápida!"
   },
   {
-     "/àdisposição": "Estamos à disposição, caso precise de mais alguma informação é só chamar!!!"
+    "trigger": "/àdisposição",
+    "replace": "Estamos à disposição, caso precise de mais alguma informação é só chamar!!!"
   },
   {
-     "Desconto": "Sobre essas peças que você comentou, elas já estão com o *melhor valor possível*, justamente por tudo o que entregamos: \n✨Oferecemos material de altíssima qualidade 100% em aço inoxidável cirúrgico com acabamento brilhante e uma camada extra de proteção realizada através de mais uma etapa de fabricação, polimento/ lustre, evitando possíveis ataques de corrosão e formação de manchas. \n✨Devido a esse tratamento especial oferecemos 10 Anos de Garantia contra Defeitos de Fabricação no instrumental. \n*Sugiro atenção com o material que está cotando, pois não possui as mesmas qualidades técnicas que o material comercializado pela ABC Instrumentos* \n✨Tenho certeza de que o nosso custo-benefício é o melhor do mercado brasileiro. \n👉Posso separar o pedido pra você com essas condições e garantir a disponibilidade?"
+    "trigger": "Desconto",
+    "replace": "Sobre essas peças que você comentou, elas já estão com o *melhor valor possível*, justamente por tudo o que entregamos: \n✨Oferecemos material de altíssima qualidade 100% em aço inoxidável cirúrgico com acabamento brilhante e uma camada extra de proteção realizada através de mais uma etapa de fabricação, polimento/ lustre, evitando possíveis ataques de corrosão e formação de manchas. \n✨Devido a esse tratamento especial oferecemos 10 Anos de Garantia contra Defeitos de Fabricação no instrumental. \n*Sugiro atenção com o material que está cotando, pois não possui as mesmas qualidades técnicas que o material comercializado pela ABC Instrumentos* \n✨Tenho certeza de que o nosso custo-benefício é o melhor do mercado brasileiro. \n👉Posso separar o pedido pra você com essas condições e garantir a disponibilidade?"
   },
   {
-     "desconto": "Olha, acredito que dá sim pra conseguir um ajuste nesse valor 😉 \nSó preciso confirmar com meu gestor pra te dar o retorno final, pode ser? \nJá vou falar com ele e te aviso rapidinho! \n✨Lembrando que estamos ofertando um material de altíssima qualidade 100% aço inoxidável cirúrgico com acabamento brilhante e uma camada extra de proteção realizada através de mais uma etapa de fabricação, polimento/ lustre, evitando possíveis ataques de corrosão e formação de manchas. \n✨Devido a esse tratamento especial oferecemos 10 Anos de Garantia contra Defeitos de Fabricação no instrumental. \n✨Tenho certeza de que o nosso custo-benefício é o melhor do mercado brasileiro."
+    "trigger": "desconto",
+    "replace": "Olha, acredito que dá sim pra conseguir um ajuste nesse valor 😉 \nSó preciso confirmar com meu gestor pra te dar o retorno final, pode ser? \nJá vou falar com ele e te aviso rapidinho! \n✨Lembrando que estamos ofertando um material de altíssima qualidade 100% aço inoxidável cirúrgico com acabamento brilhante e uma camada extra de proteção realizada através de mais uma etapa de fabricação, polimento/ lustre, evitando possíveis ataques de corrosão e formação de manchas. \n✨Devido a esse tratamento especial oferecemos 10 Anos de Garantia contra Defeitos de Fabricação no instrumental. \n✨Tenho certeza de que o nosso custo-benefício é o melhor do mercado brasileiro."
   },
   {
-     "Desconto aprovado": "Tenho boas notícias! 🙌 \nConsegui a aprovação do desconto pra você, como reconhecimento pela nossa parceria. \nA ABC valoriza muito quem está com a gente — e clientes como você merecem esse cuidado! \n💼 Já ajustei tudo por aqui e deixei o material reservado, me informa se já podemos dar andamento ao seu pedido"
+    "trigger": "Desconto aprovado",
+    "replace": "Tenho boas notícias! 🙌 \nConsegui a aprovação do desconto pra você, como reconhecimento pela nossa parceria. \nA ABC valoriza muito quem está com a gente — e clientes como você merecem esse cuidado! \n💼 Já ajustei tudo por aqui e deixei o material reservado, me informa se já podemos dar andamento ao seu pedido"
   },
   {
-     "Enquanto": "Enquanto preparamos seu orçamento, que tal dar uma olhada no nosso Instagram?*Lá você vê nossos produtos, lançamentos e tudo que rola nos bastidores da ABC!*👉https://www.instagram.com/abcinstrumentos"
+    "trigger": "Enquanto",
+    "replace": "Enquanto preparamos seu orçamento, que tal dar uma olhada no nosso Instagram?*Lá você vê nossos produtos, lançamentos e tudo que rola nos bastidores da ABC!*👉https://www.instagram.com/abcinstrumentos"
   },
   {
-     "novocanal,": "{name}, este é o novo canal de atendimento da ABC! O nosso objetivo é proporcionar uma experiência mais eficiente e conveniente, facilitando o contato direto entre você e nossa equipe!"
+    "trigger": "novocanal,",
+    "replace": "{name}, este é o novo canal de atendimento da ABC! O nosso objetivo é proporcionar uma experiência mais eficiente e conveniente, facilitando o contato direto entre você e nossa equipe!"
   }
 ]
